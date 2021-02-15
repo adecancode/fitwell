@@ -1,13 +1,172 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Barlow", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-bg {
+  background-color: #3b18aa;
+}
+
+.custom-color {
+  color: #3b18aa;
+}
+
+.centered-axis-xy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sect--5 {
+  background: url(https://res.cloudinary.com/dudhmrdin/image/upload/v1613341536/b8bf1aca-ad97-4bb6-be64-09d13172d72f_ydczfe.png);
+}
+
+@media (min-width: 300px) and (max-width: 320px) {
+  .navbar {
+    padding: 2rem 1rem;
+  }
+  .login-btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .none-phone {
+    display: none;
+  }
+  .custom-phone-color {
+    color: #fff;
+  }
+  .text-1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .centered-axis-xy {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    padding: 3rem 2rem;
+    background-color: #6534ff;
+  }
+  .text-2 {
+    font-size: 1.2rem;
+    line-height: 1.55rem;
+  }
+  .text-3 {
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  .text-4 {
+    font-size: 1rem;
+    line-height: 1.55rem;
+  }
+  .p-cards {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .bock {
+    display: block;
+  }
+  .width-reset {
+    width: 100%;
+  }
+  .addition-det {
+    padding: 2rem 0rem;
+  }
+  .text-5 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .text-6 {
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  .sect--5 {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 650px) {
+  .navbar {
+    padding: 2rem 1rem;
+  }
+  .login-btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .none-phone {
+    display: none;
+  }
+  .custom-phone-color {
+    color: #fff;
+  }
+  .text-1 {
+    font-size: 2.2rem;
+    line-height: 1;
+  }
+  .centered-axis-xy {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    padding: 3rem 2rem;
+    background-color: #6534ff;
+  }
+  .text-2 {
+    font-size: 1.35rem;
+    line-height: 1.55rem;
+  }
+  .text-3 {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+  .text-4 {
+    font-size: 1.25rem;
+    line-height: 1.55rem;
+  }
+  .p-cards {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .bock {
+    display: block;
+  }
+  .width-reset {
+    width: 100%;
+  }
+  .addition-det {
+    padding: 2rem 0rem;
+  }
+  .text-5 {
+    font-size: 2.25rem;
+    line-height: 1;
+  }
+  .text-6 {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+  .sect--5 {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 768px) {
+  .text-1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+  .text-2 {
+    font-size: 1.45rem;
+    line-height: 1.55rem;
+  }
+  .text-5 {
+    font-size: 2.55rem;
+    line-height: 1;
+  }
+  .text-6 {
+    font-size: 1.45rem;
+    line-height: 1;
+  }
 }
